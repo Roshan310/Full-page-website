@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun</title>
+    <link rel="stylesheet" href="main.css">
+    </html> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+
+  </head>
+<body>
+  <section class="header">
+      <nav>
+        <a href="main.html"><img src="images/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+          <i class="lni lni-cross-circle" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#cta">Contact</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="#course">Courses</a></li>
+          </ul>
+        </div>
+        <i class="lni lni-menu" onclick="showMenu()"></i>
+      </nav>
+    
+      <div class="text-area">
+        <h1>
+          World's biggest University
+        </h1>
+        <p>You can learn web development quite easily. You just have to learn
+          HTML, CSS and <br> JavaScript and you are good to go.
+        </p>
+        <a href="" class="hero-btn">Visit us to know more</a>
+
+      </div>
+  </section>
+
+  <section class="course" id="course">
+    <h1>Courses we offer:</h1>
+    <p>Lorem Ipsum is simply dummy text of the remaining unchanged. It was popularised in the 1960s</p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and survived not only five centuries, but also the leap into electronic typesetting</p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.It has survived not only five centuries, but also the leap into electronic typesetting</p>
+      </div>
+      <div class="course-col">
+        <h3>Post Graduate</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.It has survived not only five centuries, but also the leap into electronic typesetting</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="campus">
+
+    <h1>Our Global campus</h1>
+    <div class="row">
+      <div class="campus-col">
+        <img src="images/london.png" alt="london">
+        <div class="layer">
+          <h3>London</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="images/newyork.png" alt="london">
+        <div class="layer">
+          <h3>Newyork</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="images/washington.png" alt="london">
+        <div class="layer">
+          <h3>Washington</h3>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum in very important for you health if you want it to be</p>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/library.png" alt="">
+        <h3>World class Library</h3>
+        <p>Lorem ipsum in very important for you health if you want it to be</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/basketball.png" alt="">
+        <h3>World Largest Basketball ground</h3>
+        <p>Lorem ipsum in very important for you health if you want it to be</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/library.png" alt="">
+        <h3>Tasty cafe time</h3>
+        <p>Lorem ipsum in very important for you health if you want it to be</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h1>What our student says!</h1>
+    <p>Lorem ipsum in very important for you health if you want it to be</p>
+
+    <div class="row">
+      <div class="testimonials-col">
+        <img src="images/user2.jpg" alt="">
+        <div>
+        <p>Lorem ipsum in very important for you health if you want it to be</p>
+        <h3>Chris Rogers</h3>
+        <i class="lni lni-star-filled"></i>
+        <i class="lni lni-star-filled"></i>
+        <i class="lni lni-star-filled"></i>
+        <i class="lni lni-star-filled"></i>
+        </div>
+      </div>
+
+      <div class="testimonials-col">
+        <img src="images/user2.jpg" alt="">
+        <div>
+        <p>Lorem ipsum in very important for you health if you want it to be</p>
+        <h3>Harris Rauf</h3>
+        <i class="lni lni-star-filled"></i>
+        <i class="lni lni-star-filled"></i>
+        <i class="lni lni-star-filled"></i>
+        <i class="lni lni-star-filled"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id='cta'>
+    <h1>Enroll in our Variou courses <br> Anywhere from the world</h1>
+    <a href="" class="hero-btn">Enroll Now</a>
+  </section>
+
+    <section class="footer">
+      <h2>About Us</h2>
+      <p>Lorem ipsum in very important for your health if you want it to be <br>Lorem ipsum in very important</p>
+      <div class="icons">
+        <i class="lni lni-facebook-oval"></i>
+        <i class="lni lni-twitter-filled"></i>
+        <i class="lni lni-instagram-filled"></i>
+        <i class="lni lni-linkedin-original"></i>
+      </div>
+      <p>Made with <i class="lni lni-heart-filled"></i> by Roshan</p>
+    </section>
+
+  <script>
+    var navLinks = document.getElementById('navLinks')
+    function showMenu(){
+      navLinks.style.right = '0';
+    }
+
+    function hideMenu(){
+      navLinks.style.right = '-200px';
+    }
+  </script>
+</body>
+</html>
